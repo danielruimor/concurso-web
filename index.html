@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td,table{
+            border: 2px solid black;
+            border-collapse:collapse;
+            padding:0.5cm;
+            text-align: center;
+        }
+        thead{
+            background-color: darkturquoise;
+            font-weight: bold;
+        }
+        td.Horas{
+            background-color:paleturquoise;
+            font-weight:bold;  
+        }
+        td.Filo{
+            background-color:rgba(0, 0, 0, 0.651);
+            color:white;
+        }
+        td.Tic{
+            background-color:dodgerblue;
+            color:white;
+        }
+        td.Emp{
+            background-color:gold
+        }
+        td.Lat{
+            background-color:darkorange;
+        }
+        td.Geo{
+            background-color:forestgreen;
+            color:white;
+        }
+        td.His{
+            background: rgb(241,10,10);
+            color:white;
+        }
+        td.Len{
+            background: rgb(242,14,14);
+            background: linear-gradient(0deg, rgba(242,14,14,1) 0%, rgba(255,252,17,1) 35%, rgba(255,252,17,1) 65%, rgba(242,14,14,1) 100%);
+        }
+        td.Fra{
+            background: rgb(1,135,249);
+            background: linear-gradient(90deg, rgba(1,135,249,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(241,10,10,1) 100%);
+        }
+        td.Rec{
+            font-weight: bold;
+            background-color: azure
+        }
+        td.Ccf{
+            background-color:darkred;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption> Horario 2ºBach.C </caption>
+        <thead>
+            <tr>
+                <td class="Horas">Horas</td>
+                <td>Lunes</td>
+                <td>Martes</td>
+                <td>Miercoles</td>
+                <td>Jueves</td>
+                <td>Viernes</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="Horas">08:15-09:08</td>
+                <td class="Filo">Filosofía</td>
+                <td class="Emp">Empresa</td>
+                <td class="Filo">Filosofía</td>
+                <td class="Tic">TIC</td>
+                <td class="Emp">Empresa</td>
+            </tr>
+            
+            <tr>
+                <td class="Horas">09:08-10:02</td>
+                <td class="Tic">TIC</td>
+                <td class="Lat">Latín</td>
+                <td class="Tic">TIC</td>
+                <td class="Geo">Geografía</td>
+                <td class="His">Historia F.</td>
+            </tr>
+            
+            <tr>
+                <td class="Horas">10:02-11:00</td>
+                <td class="His">Historia F.</td>
+                <td class="Len">Lengua</td>
+                <td class="Geo">Geografía</td>
+                <td class="Lat">Latín</td>
+                <td class="Tic">TIC</td>
+            </tr>
+            <tr>
+                <td class="Horas">11:00-11:30</td>
+                <td colspan="6" class="Rec">Recreo</td>  
+            </tr>
+
+            <tr>
+                <td class="Horas">11:30-12:21</td>
+                <td class="Emp">Empresa</td>
+                <td class="Geo">Geografía</td>
+                <td class="Len">Lengua</td>
+                <td class="Len">Lengua</td>
+                <td class="Filo">Filosofía</td>
+            </tr>
+
+            <tr>
+                <td class="Horas">12:21-13:16</td>
+                <td class="Lat">Latín</td>
+                <td class="His">Historia F.</td>
+                <td class="His">Historia F.</td>
+                <td class="Fra">Francés</td>
+                <td class="Fra">Francés</td>
+            </tr>
+
+            <tr>
+                <td class="Horas">13:16-14:10</td>
+                <td class="Geo">Geografía</td>
+                <td class="Fra">Francés</td>
+                <td class="Lat">Latín</td>
+                <td class="Emp">Empresa</td>
+                <td class="Len">Lengua</td>
+            </tr>
+
+            <tr>
+                <td class="Horas">14:10-15:05/14:30-15:20</td>
+                <td>---</td>
+                <td class="Fra">Francés</td>
+                <td>---</td>
+                <td class="His">Historia F.</td>
+                <td>---</td>
+            </tr>
+
+            <tr>
+                <td class="Horas">15:20-16:10</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td class="Ccf">CCF</td>
+                <td>---</td>
+            </tr>
+
+            <tr>
+                <td class="Horas">16:10-17:00</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td class="Ccf">CCF</td>
+                <td>---</td>
+            </tr>
+            
+            
+        </tbody>
+    </table>
+</body>
+</html>
