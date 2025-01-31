@@ -1,0 +1,67 @@
+body{
+    background: rgb(0,125,255);
+    background: radial-gradient(circle, rgba(0,125,255,1) 0%, rgba(30,33,115,1) 100%);
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    color: rgba(30,33,115,1);
+}
+
+div.plantilla{
+    width: 425px;
+    height: 600px;
+    padding:5px;
+    margin:15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    border-radius:30px;
+}
+
+div.plantilla:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+div img.plantilla{
+    height:500px;
+    width:400px;
+    margin:5px;
+}
+
+p.numero{
+    font-size:xx-large;
+    color:rgba(30,33,115,1);
+    display:inline;
+    font-weight: bolder;
+}
+
+p{
+    color:rgba(30,33,115,1);
+    display:inline;
+    font-size: larger;
+    font-weight: bold;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2.titulo{
+    text-align: center;
+    font-size: xx-large;
+    color:white;
+}
+h2.naveg:hover{
+    color: rgb(0,125,255);
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}

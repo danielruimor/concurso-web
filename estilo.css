@@ -1,0 +1,60 @@
+body{
+    background: rgb(0,125,255);
+    background: radial-gradient(circle, rgba(0,125,255,1) 0%, rgba(30,33,115,1) 100%);
+}
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    color: rgba(30,33,115,1);
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+} 
+
+h2.naveg{
+    color: rgba(30,33,115,1);
+}
+
+h2.naveg:hover{
+    color: rgb(0,125,255);
+    text-decoration: underline;
+}
+
+div.titulo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+h2.main{
+    color:rgba(30,33,115,1);
+    background-color: white;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline ;
+}
+
+button{
+    width: 100px;
+    height: 200px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+h2{
+    color: white;
+    font-size: x-large;
+}
