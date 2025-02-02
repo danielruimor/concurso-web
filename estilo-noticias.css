@@ -1,0 +1,54 @@
+body{
+    background: rgb(0,125,255);
+    background: radial-gradient(circle, rgba(0,125,255,1) 0%, rgba(30,33,115,1) 100%);
+}
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    color: rgba(30,33,115,1);
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+} 
+
+h2.naveg{
+    color: rgba(30,33,115,1);
+}
+
+h2.naveg:hover{
+    color: rgb(0,125,255);
+    text-decoration: underline;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.noticia{
+    width: 400px;
+    height: 400px;
+    margin:5px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+    color:black;
+}
+
+div img.noticia{
+    height:200px;
+    width:400px;
+    border-radius: 30px;
+}
+
+div.noticia:hover{
+    background-color: rgb(206, 206, 206);
+}
